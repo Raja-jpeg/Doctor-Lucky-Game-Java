@@ -1,6 +1,6 @@
-# CS 5010 Semester Project
+# Java-based Doctor Lucky Game 
 
-This repo represents the coursework for CS 5010, the Summer 2023 Edition!
+This repo represents the Kill Doctor Lucky Mansion Board Game created with Java using the Model View Controller architecture!
 
 ### About/Overview
 
@@ -77,7 +77,7 @@ Changes made in Milestone 4:
 2.  The playGame method expects an instance of MansionBoardGameViewInterface as a parameter. This suggests that the Controller is interacting more directly with the view layer, possibly adhering to the principles of MVC (Model-View-Controller) architecture.
 3.  The constructor of the Controller class takes in the model, numberOfTurns, and file as parameters, indicating a move towards dependency injection. This approach allows for easier testing and flexibility in choosing dependencies.
 4.  The Controller class now interacts more closely with the view layer, indicating a more interactive and dynamic user experience. This aligns with the idea of the Controller serving as an intermediary between the Model and the View.
-![RevisedMilestone4PreliminaryDesign drawio](ttps://github.com/CS5010Feinberg/cs5010project-rajasrp/assets/132959895/86e40ff4-93e7-46a8-8cd6-f8a9775f65f0)
+![RevisedMilestone4PreliminaryDesign drawio](https://github.com/Raja-jpeg/Doctor-Lucky-Game-Java/blob/main/res/260922690-86e40ff4-93e7-46a8-8cd6-f8a9775f65f0.png)
 
 ### Assumptions
 
@@ -107,7 +107,9 @@ The operations are limited to look around, pick item, attack target character, m
 
 ### Citations
 [1] ArrayList-https://www.w3schools.com/java/java_arraylist.asp#:~:text=The%20ArrayList%20class%20is%20a,to%20create%20a%20new%20one).
+  
 [2] Depth First Search - https://www.simplilearn.com/tutorials/data-structure-tutorial/dfs-algorithm#:~:text=The%20depth%2Dfirst%20search%20or,far%20as%20possible%20before%20backtracking.
+  
 [3] BufferedImage - https://www.tutorialspoint.com/java_dip/java_buffered_image.htm
 
 

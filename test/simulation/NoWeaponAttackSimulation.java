@@ -3,20 +3,21 @@ package simulation;
 import mansion.GameControls;
 
 /**
- * This class simulates the computer-controlled player behavior.
+ * This is the NoWeaponAttackSimulation class.
+ * This class simulates attack with no weapon behavior.
  */
-public class ComputerPlayerSimulation implements GameControls {
+public class NoWeaponAttackSimulation implements GameControls {
   
   private StringBuilder message;
   private final int uniqueCode;
   
   /**
-   * The ComputerPlayerSimulation class constructor.
+   * This is the NoWeaponAttackSimulation class constructor.
    * 
    * @param message the message.
-   * @param uniqueCode the uniqueCode.
-   */
-  public ComputerPlayerSimulation(StringBuilder message, int uniqueCode) {
+   * @param uniqueCode the unique code.
+   */ 
+  public NoWeaponAttackSimulation(StringBuilder message, int uniqueCode) {
     this.message = message;
     this.uniqueCode = uniqueCode;
   }
@@ -35,8 +36,9 @@ public class ComputerPlayerSimulation implements GameControls {
   
   @Override
   public void addHumanPlayer(String playerName, int playerItemsLimit, String playerRoomName) {
-    this.message.append("addHumanPlayer method invoked with player name, " + playerName 
-          + "player item limit" + playerItemsLimit + "player room name" + playerRoomName + "\n");
+    this.message.append("addHumanPlayer method invoked with player name, " 
+        + playerName + "player item limit" 
+        + playerItemsLimit + "player room name" + playerRoomName + "\n");
     this.message.append(String.format("UniqueCode is " + this.uniqueCode, new Object[0]));
   }
   
@@ -71,22 +73,27 @@ public class ComputerPlayerSimulation implements GameControls {
   }
   
   @Override
-  public void movePet(String roomName) {}
+  public boolean checkComputerPlayer() {
+    this.message.append("checkComputerPlayer method invoked\n");
+    return false;
+  }
+  
+  @Override
+  public void movePet(String roomName) {
+    this.message.append("movePet method invoked with input " + roomName);
+    this.message.append(String.format("UniqueCode is " + this.uniqueCode, new Object[0]));
+  }
   
   @Override
   public String attackTarget(String itemName) {
-    return null;
+    this.message.append("attackTarget method invoked with input " + itemName);
+    return String.format("UniqueCode is " + this.uniqueCode, new Object[0]);
   }
   
   @Override
   public String getHintsAboutWorld() {
-    return null;
-  }
-  
-  @Override
-  public boolean checkComputerPlayer() {
-    this.message.append("checkComputerPlayer method invoked\n");
-    return true;
+    this.message.append("getHintsAboutWorld method invoked");
+    return String.format("UniqueCode is " + this.uniqueCode, new Object[0]);
   }
   
   @Override
@@ -116,7 +123,7 @@ public class ComputerPlayerSimulation implements GameControls {
   @Override
   public boolean isGameNotOver() {
     this.message.append("isGameNotOver method invoked\n");
-    return Boolean.valueOf(false);
+    return Boolean.valueOf(true);
   }
   
   @Override

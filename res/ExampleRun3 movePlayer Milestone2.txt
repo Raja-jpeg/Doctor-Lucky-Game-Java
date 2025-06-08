@@ -1,0 +1,49 @@
+===================Milestone 2======================
+===================Game Start=======================
+Enter no of Players: 2
+[Press 1 to add AddHumanPlayer, Press 2 to AddComputerPlayer] to add players
+1
+Enter player name: human1
+Enter player item limit: 2
+Enter player room: Library
+Human Player Added
+[Press 1 to add AddHumanPlayer, Press 2 to AddComputerPlayer] to add players
+1
+Enter player name: human2
+Enter player item limit: 2
+Enter player room: Kitchen
+Human Player Added
+===============Players are added to the game======================
+Place a move for Player1
+Select a number:
+1: WorldGraphicalRep,
+2: LookAround,
+3: MovePlayer,
+4: PickItem,
+5: PlayerInfo,
+6: SpaceInfo
+
+3
+Enter room name: Dining Hall
+human2 moved to room: Dining Hall
+Place a move for Player2
+Select a number:
+1: WorldGraphicalRep,
+2: LookAround,
+3: MovePlayer,
+4: PickItem,
+5: PlayerInfo,
+6: SpaceInfo
+
+1
+Target character is in room Armory at position (22, 22)
+Image saved successfully: mansion.png
+Place a move for Player2
+Select a number:
+1: WorldGraphicalRep,
+2: LookAround,
+3: MovePlayer,
+4: PickItem,
+5: PlayerInfo,
+6: SpaceInfo
+

@@ -1,0 +1,30 @@
+===================Milestone 2======================
+===================Game Start=======================
+Enter no of Players: 1
+[Press 1 to add AddHumanPlayer, Press 2 to AddComputerPlayer] to add players
+1
+Enter player name: human
+Enter player item limit: 2
+Enter player room: Kitchen
+Human Player Added
+===============Players are added to the game======================
+Place a move for Player1
+Select a number:
+1: WorldGraphicalRep,
+ 2: LookAround,
+ 3: MovePlayer,
+ 4: PickItem,
+ 5: PlayerInfo,
+6: SpaceInfo
+
+4
+Enter item name: Crepe Pan
+player0 picked up item: Crepe Pan
+Place a move for Player1
+Select a number:
+1: WorldGraphicalRep,
+ 2: LookAround,
+ 3: MovePlayer,
+ 4: PickItem,
+ 5: PlayerInfo,
+6: SpaceInfo

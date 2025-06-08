@@ -1,0 +1,142 @@
+===================Milestone 3======================
+====================Play it to win it====================
+Enter the number of players
+3
+Choose a command option to add players
+1---->AddHumanPlayer
+2---->AddComputerPlayer
+1
+Enter player name,player item limit and player room
+Human 2 Kitchen
+Human player added to the game
+Choose a command option to add players
+1---->AddHumanPlayer
+2---->AddComputerPlayer
+2
+Computer player added to the game
+Choose a command option to add players
+1---->AddHumanPlayer
+2---->AddComputerPlayer
+1
+Enter player name,player item limit and player room
+Human2 3 Parlor
+Human player added to the game
+=================All Players added to the game========================
+=========Perform an action for Player Human==============
+1.) WorldGraphicalRep
+2.) LookAround
+3.) MovePlayer
+4.) PickItem
+5.) PlayerInfo
+6.) SpaceInfo
+7.) MovePet
+8.) AttackTarget
+==========Hints===========
+player Human is in room Kitchen and carrying [].
+Target is in room Armory and Targets health's is 4.
+Pet is not in the current player's room.
+=================================================================
+1
+Image in created in res folder
+=========Perform an action for Player Human==============
+1.) WorldGraphicalRep
+2.) LookAround
+3.) MovePlayer
+4.) PickItem
+5.) PlayerInfo
+6.) SpaceInfo
+7.) MovePet
+8.) AttackTarget
+==========Hints===========
+player Human is in room Kitchen and carrying [].
+Target is in room Armory and Targets health's is 4.
+Pet is not in the current player's room.
+=================================================================
+6
+Enter Space name
+Kitchen
+Room Kitchen in  Doctor Lucky's Mansion has items : [Crepe Pan, Sharp Knife], its neighbours are : [Dining Hall, Parlor, Wine Cellar], it has players [Human] and Pet is not in room Kitchen
+=========Perform an action for Player Human==============
+1.) WorldGraphicalRep
+2.) LookAround
+3.) MovePlayer
+4.) PickItem
+5.) PlayerInfo
+6.) SpaceInfo
+7.) MovePet
+8.) AttackTarget
+==========Hints===========
+player Human is in room Kitchen and carrying [].
+Target is in room Armory and Targets health's is 4.
+Pet is not in the current player's room.
+=================================================================
+4
+Enter item name
+Crepe Pan
+Player picked item
+Computer player moved
+=========Perform an action for Player Human2==============
+1.) WorldGraphicalRep
+2.) LookAround
+3.) MovePlayer
+4.) PickItem
+5.) PlayerInfo
+6.) SpaceInfo
+7.) MovePet
+8.) AttackTarget
+==========Hints===========
+player Human2 is in room Parlor and carrying [].
+Target is in room Carriage House and Targets health's is 4.
+Pet is not in the current player's room.
+=================================================================
+3
+Enter room name
+Parlor
+Entered room is not a neighbor of player
+Kitchen
+Player moved to another room
+=========Perform an action for Player Human==============
+1.) WorldGraphicalRep
+2.) LookAround
+3.) MovePlayer
+4.) PickItem
+5.) PlayerInfo
+6.) SpaceInfo
+7.) MovePet
+8.) AttackTarget
+==========Hints===========
+player Human is in room Kitchen and carrying [Item Crepe Pan with damage power 3].
+Target is in room Dining Hall and Targets health's is 4.
+Pet is not in the current player's room.
+=================================================================
+6
+Enter Space name
+Wine Cellar
+Room Wine Cellar in  Doctor Lucky's Mansion has items : [Rat Poison, Piece of Rope], its neighbours are : [Dining Hall, Drawing Room, Kitchen], it has players [] and Pet is not in room Wine Cellar
+=========Perform an action for Player Human==============
+1.) WorldGraphicalRep
+2.) LookAround
+3.) MovePlayer
+4.) PickItem
+5.) PlayerInfo
+6.) SpaceInfo
+7.) MovePet
+8.) AttackTarget
+==========Hints===========
+player Human is in room Kitchen and carrying [Item Crepe Pan with damage power 3].
+Target is in room Dining Hall and Targets health's is 4.
+Pet is not in the current player's room.
+=================================================================
+4
+Enter item name
+C
+No such item is present
+Rat Poison
+Entered item is not in the room
+Crepe Pan
+Entered item is not in the room
+Sharp Knife
+Player picked item
+Computer player moved
+Target is not killed and no one wins the game.
+======================Game Over=============================

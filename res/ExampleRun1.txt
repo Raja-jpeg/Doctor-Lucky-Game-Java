@@ -1,0 +1,181 @@
+Number of rows: 36
+Number of columns: 30
+Target Character:
+Health: 50
+Name of the target character: Doctor Lucky
+
+Spaces/Rooms:
+Room 0:
+Upper left corner: (22, 19)
+Lower right corner: (23, 26)
+Name of the room: Armory
+Room 1:
+Upper left corner: (16, 21)
+Lower right corner: (21, 28)
+Name of the room: Billiard
+Room 2:
+Upper left corner: (28, 0)
+Lower right corner: (35, 5)
+Name of the room: Carriage
+Room 3:
+Upper left corner: (12, 11)
+Lower right corner: (21, 20)
+Name of the room: Dining
+Room 4:
+Upper left corner: (22, 13)
+Lower right corner: (25, 18)
+Name of the room: Drawing
+Room 5:
+Upper left corner: (26, 13)
+Lower right corner: (27, 18)
+Name of the room: Foyer
+Room 6:
+Upper left corner: (28, 26)
+Lower right corner: (35, 29)
+Name of the room: Green
+Room 7:
+Upper left corner: (30, 20)
+Lower right corner: (35, 25)
+Name of the room: Hedge
+Room 8:
+Upper left corner: (16, 3)
+Lower right corner: (21, 10)
+Name of the room: Kitchen
+Room 9:
+Upper left corner: (0, 3)
+Lower right corner: (5, 8)
+Name of the room: Lancaster
+Room 10:
+Upper left corner: (4, 23)
+Lower right corner: (9, 28)
+Name of the room: Library
+Room 11:
+Upper left corner: (2, 9)
+Lower right corner: (7, 14)
+Name of the room: Lilac
+Room 12:
+Upper left corner: (2, 15)
+Lower right corner: (7, 22)
+Name of the room: Master
+Room 13:
+Upper left corner: (0, 23)
+Lower right corner: (3, 28)
+Name of the room: Nursery
+Room 14:
+Upper left corner: (10, 5)
+Lower right corner: (15, 10)
+Name of the room: Parlor
+Room 15:
+Upper left corner: (28, 12)
+Lower right corner: (35, 19)
+Name of the room: Piazza
+Room 16:
+Upper left corner: (6, 3)
+Lower right corner: (9, 8)
+Name of the room: Servants'
+Room 17:
+Upper left corner: (8, 11)
+Lower right corner: (11, 20)
+Name of the room: Tennessee
+Room 18:
+Upper left corner: (10, 21)
+Lower right corner: (15, 26)
+Name of the room: Trophy
+Room 19:
+Upper left corner: (22, 5)
+Lower right corner: (23, 12)
+Name of the room: Wine
+Room 20:
+Upper left corner: (30, 6)
+Lower right corner: (35, 11)
+Name of the room: Winter
+
+Items:
+Item 0:
+Room Index: 8
+Damage Amount: 3
+Name of the item: Crepe Pan
+Item 1:
+Room Index: 4
+Damage Amount: 2
+Name of the item: Letter Opener
+Item 2:
+Room Index: 12
+Damage Amount: 2
+Name of the item: Shoe Horn
+Item 3:
+Room Index: 8
+Damage Amount: 3
+Name of the item: Sharp Knife
+Item 4:
+Room Index: 0
+Damage Amount: 3
+Name of the item: Revolver
+Item 5:
+Room Index: 15
+Damage Amount: 3
+Name of the item: Civil War Cannon
+Item 6:
+Room Index: 2
+Damage Amount: 4
+Name of the item: Chain Saw
+Item 7:
+Room Index: 16
+Damage Amount: 2
+Name of the item: Broom Stick
+Item 8:
+Room Index: 1
+Damage Amount: 2
+Name of the item: Billiard Cue
+Item 9:
+Room Index: 19
+Damage Amount: 2
+Name of the item: Rat Poison
+Item 10:
+Room Index: 6
+Damage Amount: 2
+Name of the item: Trowel
+Item 11:
+Room Index: 2
+Damage Amount: 4
+Name of the item: Big Red Hammer
+Item 12:
+Room Index: 6
+Damage Amount: 2
+Name of the item: Pinking Shears
+Item 13:
+Room Index: 18
+Damage Amount: 3
+Name of the item: Duck Decoy
+Item 14:
+Room Index: 13
+Damage Amount: 2
+Name of the item: Bad Cream
+Item 15:
+Room Index: 18
+Damage Amount: 2
+Name of the item: Monkey Hand
+Item 16:
+Room Index: 11
+Damage Amount: 2
+Name of the item: Tight Hat
+Item 17:
+Room Index: 19
+Damage Amount: 2
+Name of the item: Piece of Rope
+Item 18:
+Room Index: 9
+Damage Amount: 3
+Name of the item: Silken Cord
+Item 19:
+Room Index: 7
+Damage Amount: 2
+Name of the item: Loud Noise
+Do you want to find neighbors? (y/n): y
+Enter the row index: 28
+Enter the column index: 13
+Neighbors of (28, 13):
+Neighbor above: (27, 13)
+Neighbor below: (29, 13)
+Neighbor left: (28, 12)
+Neighbor right: (28, 14)

@@ -1,0 +1,17 @@
+===================Milestone 3======================
+====================Play it to win it====================
+Enter the number of players
+1
+Choose a command option to add players
+1---->AddHumanPlayer
+2---->AddComputerPlayer
+2
+Computer player added to the game
+=================All Players added to the game========================
+Target attack is successful by poking him in the eye and Target health decreased to 3
+Computer player Looked Around the space
+Computer player Looked Around the space
+Computer player moved Pet to another room
+Computer player picked an item
+Target is not killed and no one wins the game.
+======================Game Over=============================
